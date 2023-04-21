@@ -1,0 +1,54 @@
+body {
+  background: hsl(212.31deg 44.83% 88.63%);
+  margin: 0;
+}
+
+/* card */
+.main-container {
+  background-color: white;
+  width: 290px;
+
+
+  margin: auto;
+  margin-top: 20%;
+  text-align: center;
+
+  border-radius: 16px;
+  padding: 16px !important;
+  padding-bottom: 32px;
+
+  font-family: 'Outfit', sans-serif;
+
+  box-shadow: 0px 8px 40px rgba(202, 202, 202, 0.8);
+}
+
+/* qr code image */
+.qr-code {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* textbox */
+.text-box {
+  margin: auto;
+  padding-inline: 8px;
+
+}
+/* stronger text */
+h1 {
+  color: hsl(222.35deg 36.96% 18.04%);
+
+  font-size: 24px;
+  font-weight: 600;
+
+}
+/* light text */
+p {
+  color: hsl(230deg 6.45% 63.53%);
+
+  font-size: 15px;
+  font-weight: 300;
+
+  padding-inline: 8px;
+
+}
