@@ -1,6 +1,10 @@
 body {
   background: hsl(212.31deg 44.83% 88.63%);
   margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* card */
@@ -8,14 +12,12 @@ body {
   background-color: white;
   width: 290px;
 
-
-  margin: auto;
-  margin-top: 20%;
+  /* margin: auto; */
+  margin-top: 12vh;
   text-align: center;
 
   border-radius: 16px;
   padding: 16px !important;
-  padding-bottom: 32px;
 
   font-family: 'Outfit', sans-serif;
 
@@ -50,5 +52,36 @@ p {
   font-weight: 300;
 
   padding-inline: 8px;
+}
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 40px;
+
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  text-align: center;
+
+  background-color: white;
+  opacity: 0.6;
+  box-shadow: 1000px 100px 100px white;
+
+  font-family: "Outfit", sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    position: absolute;
+    bottom: -55px;
+
+  }
+
+  footer p {
+    padding-block: 4px;
+  }
 }
